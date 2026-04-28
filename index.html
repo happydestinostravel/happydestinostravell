@@ -3,38 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Happydestinostravel</title>
+<title>Happy Destinos Travel</title>
 
 <style>
+
 body{
-font-family:Arial,sans-serif;
 margin:0;
-background:#f5f7fb;
+font-family:Arial, sans-serif;
+background:#f4f6fb;
+color:#1d2d50;
 }
 
 header{
-background:#00aaff;
+background:linear-gradient(90deg,#0b2d5c,#c9a646);
 color:white;
-padding:35px;
+padding:45px;
 text-align:center;
 }
 
+.logo{
+font-size:38px;
+font-weight:bold;
+letter-spacing:2px;
+color:#ffd86b;
+}
+
+.sub{
+font-size:18px;
+margin-top:10px;
+}
+
 section{
-max-width:900px;
+max-width:1000px;
 margin:auto;
-padding:20px;
+padding:30px;
 }
 
 .card{
 background:white;
-padding:25px;
-margin:20px 0;
-border-radius:15px;
-box-shadow:0 4px 12px rgba(0,0,0,.08);
+padding:30px;
+margin:25px 0;
+border-radius:18px;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+border-top:5px solid #c9a646;
 }
 
 h2{
-margin-top:0;
+color:#0b2d5c;
 }
 
 input,select,textarea{
@@ -48,97 +63,147 @@ box-sizing:border-box;
 }
 
 button{
-<a href="https://wa.me/573147472519" target="_blank">
-<button type="button">
-Reservar por WhatsApp
-</button>
-</a>
+background:#0b2d5c;
+color:#ffd86b;
+border:none;
+padding:15px 28px;
+font-size:16px;
+border-radius:10px;
+cursor:pointer;
+font-weight:bold;
 }
 
 button:hover{
 opacity:.9;
 }
 
+ul li{
+margin-bottom:10px;
+}
+
 footer{
-background:#222;
-color:white;
+background:#0b2d5c;
+color:#ffd86b;
 text-align:center;
-padding:18px;
+padding:22px;
 margin-top:30px;
 }
+
+a{
+text-decoration:none;
+}
+
 </style>
 </head>
-
 <body>
 
 <header>
-<h1>✈️ Happy Destinos Travel</h1>
-<p>Reserva tu próxima aventura con nosotros</p>
+<div class="logo">
+HAPPY DESTINOS TRAVEL
+</div>
+
+<div class="sub">
+Agencia de Viajes • Reservas • Turismo • Cotizaciones
+</div>
 </header>
+
 
 <section>
 
 <div class="card">
-<h2>🌍 Servicios</h2>
+<h2>Servicios</h2>
+
 <ul>
-<li>Vuelos nacionales e internacionales</li>
-<li>Paquetes turísticos</li>
-<li>Hoteles y resorts</li>
-<li>Cruceros y vacaciones</li>
+<li>✈️ Vuelos nacionales e internacionales</li>
+<li>🏨 Hoteles y resorts</li>
+<li>🌴 Paquetes turísticos</li>
+<li>🚢 Cruceros</li>
+<li>💼 Asesoría de viajes personalizada</li>
 </ul>
 </div>
 
+
 <div class="card">
-<h2>📝 Formulario de Pre-Reserva</h2>
+<h2>Formulario de Pre-Reserva</h2>
 
 <form>
 
 <label>Nombre completo</label>
-<input type="text" placeholder="Tu nombre">
+<input type="text">
 
-<label>Correo electrónico</label>
-<input type="email" placeholder="correo@email.com">
+<label>Dirección del pasajero</label>
+<input type="text">
 
 <label>Teléfono</label>
-<input type="tel" placeholder="Tu número">
+<input type="tel">
 
-<label>Destino deseado</label>
-<input type="text" placeholder="Ej: Punta Cana">
+<label>Correo electrónico</label>
+<input type="email">
+
+<label>Destino</label>
+<input type="text">
 
 <label>Fecha de viaje</label>
 <input type="date">
 
+<label>Localizador / Código de reserva</label>
+<input type="text">
+
+<label>Nombre del hotel</label>
+<input type="text">
+
+<label>Régimen de alimentos</label>
+<select>
+<option>Solo alojamiento</option>
+<option>Desayuno incluido</option>
+<option>Media pensión</option>
+<option>Todo incluido</option>
+</select>
+
 <label>Número de viajeros</label>
 <input type="number">
 
-<label>Tipo de viaje</label>
-<select>
-<option>Vacaciones</option>
-<option>Luna de miel</option>
-<option>Negocios</option>
-<option>Crucero</option>
-</select>
+<label>Nombres de los acompañantes</label>
+<textarea rows="4"></textarea>
 
-<label>Comentarios</label>
-<textarea rows="4" placeholder="Detalles adicionales"></textarea>
+<label>Saldo restante por pagar</label>
+<input type="number">
 
-<button type="submit">
-Enviar Pre-Reserva
+<label>Observaciones</label>
+<textarea rows="5"></textarea>
+
+<a href="https://wa.me/573147472519" target="_blank">
+<button type="button">
+Enviar Pre-Reserva por WhatsApp
 </button>
+</a>
 
 </form>
 </div>
 
+
 <div class="card">
-<h2>📞 Contacto</h2>
-<p>Email: happydestinostravel@gmail.com</p>
-<p>WhatsApp: 314 747 2519</p>
+<h2>Contacto</h2>
+
+<p>
+📧 happydestinostravel@gmail.com
+</p>
+
+<p>
+📱 WhatsApp: 314 747 2519
+</p>
+
+<p>
+📍 Atención personalizada para tus viajes.
+</p>
+
 </div>
 
 </section>
 
+
 <footer>
-© 2026 Happy Destinos Travel
+© 2026 Happy Destinos Travel | Todos los derechos reservados
 </footer>
 
 </body>
